@@ -20,7 +20,7 @@ RUN apt-get install python3-pip python3-dev libcairo2-dev nano -y
 
 # download snap installer version 7.0
 RUN apt-get install wget
-RUN wget http://step.esa.int/downloads/7.0/installers/esa-snap_sentinel_unix_8_0.sh
+RUN wget http://step.esa.int/downloads/8.0/installers/esa-snap_sentinel_unix_8_0.sh
 
 #change file execution rights for snap installer
 RUN chmod +x esa-snap_sentinel_unix_8_0.sh
